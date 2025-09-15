@@ -13,3 +13,6 @@ clean:
 memcheck:
 	valgrind $(MFLAGS) ./$(EXEC)
 
+run:
+	./$(EXEC)
+
