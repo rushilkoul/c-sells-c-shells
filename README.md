@@ -6,7 +6,7 @@ sudo apt install build-essential gdb valgrind   # fun prerequisites (gdb isnt re
 
 make  # compiles it to ./c_sells_c_shells 
 
-./c_sells_c_shells 
+make run
 ```
 
 you can also run while checking for memory leaks how cool is that
